@@ -1,18 +1,18 @@
 # processdataAIC2026
 
 ## Setup Conda Environment
-### Step 1: Download Miniconda
+### Download Miniconda
 Download the Miniconda distribution from: 
 👉 `https://www.anaconda.com/download/success`
 
 
 
-### Step 2: Install Miniconda
+### Install Miniconda
 Run the downloaded `.exe` file and complete the installation.
 
 
 
-### Step 3: Initialize Conda for PowerShell
+### Initialize Conda for PowerShell
 Open CMD and run:
 
 ```bash
