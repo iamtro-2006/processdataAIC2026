@@ -5,12 +5,12 @@
 Download the Miniconda distribution from: 
 👉 `https://www.anaconda.com/download/success`
 
----
+
 
 ### Step 2: Install Miniconda
 Run the downloaded `.exe` file and complete the installation.
 
----
+
 
 ### Step 3: Initialize Conda for PowerShell
 Open CMD and run:
@@ -19,7 +19,7 @@ Open CMD and run:
 conda init powershell
 ```
 
----
+
 
 ### Check for available resources 
 
@@ -28,7 +28,6 @@ conda update conda
 conda search "^python$" 
 ```
 
----
 
 ### Create environment 
 
@@ -43,7 +42,7 @@ conda activate aic2026
 conda env list
 ```
 
----
+
 
 ### Activate the Virtual Environment
 
@@ -51,7 +50,7 @@ conda env list
 conda active aic2026
 ```
 
----
+
 
 ### Install packages
 We can use either `pip` or `conda` for installation interface
