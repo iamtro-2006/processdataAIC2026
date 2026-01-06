@@ -33,6 +33,35 @@ conda search "^python$"
 ### Create environment 
 
 ```bash
-conda create -n aic2026 python=3.12.4
+conda create -p aic2026 python=3.12.4
 conda activate aic2026
 ```
+
+### Show env list 
+
+```bash
+conda env list
+```
+
+---
+
+### Activate the Virtual Environment
+
+```bash
+conda active aic2026
+```
+
+---
+
+### Install packages
+We can use either `pip` or `conda` for installation interface
+
+```bash
+conda install numpy pandas ...
+```
+
+```bash
+pip install numpy ...
+```
+
+---
